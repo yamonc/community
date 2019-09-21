@@ -1,5 +1,7 @@
 package com.majiang.community.community.controller;
 
+
+import com.majiang.community.community.dto.PaginationDTO;
 import com.majiang.community.community.dto.QuestionDTO;
 import com.majiang.community.community.mapper.QuestionMapper;
 import com.majiang.community.community.mapper.UserMapper;
@@ -10,6 +12,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import sun.rmi.server.InactiveGroupException;
 
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
@@ -28,7 +32,8 @@ public class IndexController {
     private QuestionService questionService;
 
     @GetMapping("/")
-    public String index(HttpServletRequest request, Model model) {
+    public String index(HttpServletRequest request, Model model, @RequestParam(name = "page",defaultValue = "1")Integer page,
+                        @RequestParam(name="size",defaultValue = "5")Integer size) {
         //注入model来发送给前台页面数据
         Cookie[] cookies = request.getCookies();
         if (cookies != null && cookies.length != 0) {
@@ -44,13 +49,11 @@ public class IndexController {
                     }
                     break;
                 }
-
-
             }
         }
         //在return之前，需要把数据展示给用户
-        List<QuestionDTO> questionList=questionService.list();
-        model.addAttribute("questions",questionList);
+        PaginationDTO pagination = questionService.list(page, size);
+        model.addAttribute("pagination",pagination);
         return "index";
     }
 }
