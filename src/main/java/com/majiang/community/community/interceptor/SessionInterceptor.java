@@ -2,7 +2,6 @@ package com.majiang.community.community.interceptor;
 
 import com.majiang.community.community.mapper.UserMapper;
 import com.majiang.community.community.model.User;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.servlet.HandlerInterceptor;

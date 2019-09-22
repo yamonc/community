@@ -106,4 +106,31 @@ public class QuestionService {
 
         return paginationDTO;
     }
+    public QuestionDTO getById(Integer id) {
+        System.out.println(id);
+        Question question = questionMapper.getById(id);
+
+        QuestionDTO questionDTO = new QuestionDTO();
+        BeanUtils.copyProperties(question,questionDTO);
+
+
+        User user=userMapper.findById(question.getCreator());
+        questionDTO.setUser(user);
+        return questionDTO;
+    }
+
+    public void createOrUpdate(Question question) {
+        //判断
+        if (question.getId()==null){
+            //如果等于null证明是第一次创建
+            question.setGmtCreate(System.currentTimeMillis());
+            question.setGmtModified(question.getGmtCreate());
+            questionMapper.create(question);
+        }else{
+            //更新
+
+            question.setGmtModified(question.getGmtCreate());
+            questionMapper.update(question);
+        }
+    }
 }

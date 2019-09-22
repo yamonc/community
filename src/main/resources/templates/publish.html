@@ -26,6 +26,7 @@
             <hr>
             <!--如果是get则是页面，如果是post则是请求-->
             <form action="/publish" method="post">
+                <input type="hidden" name="id" th:value="${id}">
                 <div class="form-group">
                     <label for="title">问题标题（简单扼要）</label>
                     <input type="text" class="form-control" id="title" name="title"  th:value="${title}" placeholder="问题标题。。。">
