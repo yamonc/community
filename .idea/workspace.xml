@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a93ededc-5bc6-4da7-badd-b25c6794b1b9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/controller/AuthorizeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/controller/AuthorizeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/service/QuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/service/QuestionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/community.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/community.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/error.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +154,16 @@
       <workItem from="1575896479777" duration="14000" />
       <workItem from="1578563788337" duration="1045000" />
       <workItem from="1579357159536" duration="1147000" />
+      <workItem from="1579438936571" duration="2035000" />
     </task>
+    <task id="LOCAL-00001" summary="2020年1月19日21:04:40master重新开始项目">
+      <created>1579439141515</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579439141515</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,7 +196,15 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2020年1月19日21:04:40master重新开始项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020年1月19日21:04:40master重新开始项目" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="253" y="41" key="CommitChangelistDialog2" timestamp="1579439136828">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="253" y="41" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579439136828" />
     <state x="464" y="75" key="ExecutionTargetDialog" timestamp="1578563829130">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -228,10 +241,18 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1397" height="251" key="GridCell.Tab.1.right/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579358308509" />
+    <state x="312" y="183" key="Vcs.Push.Dialog.v2" timestamp="1579440847747">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="312" y="183" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579440847747" />
     <state x="400" y="274" key="com.intellij.ide.util.TipDialog" timestamp="1579438937725">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="400" y="274" key="com.intellij.ide.util.TipDialog/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579438937725" />
+    <state x="551" y="273" key="zielu.gittoolbox.ui.GitPushTagsDialog" timestamp="1579439210503">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="551" y="273" key="zielu.gittoolbox.ui.GitPushTagsDialog/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579439210503" />
   </component>
   <component name="masterDetails">
     <states>
