@@ -3,6 +3,8 @@ package com.majiang.community.community.service;
 
 import com.majiang.community.community.dto.PaginationDTO;
 import com.majiang.community.community.dto.QuestionDTO;
+import com.majiang.community.community.exception.CustomizeErrorCode;
+import com.majiang.community.community.exception.CustomizeException;
 import com.majiang.community.community.mapper.QuestionMapper;
 import com.majiang.community.community.mapper.UserMapper;
 import com.majiang.community.community.model.Question;
@@ -113,9 +115,11 @@ public class QuestionService {
         return paginationDTO;
     }
     public QuestionDTO getById(Integer id) {
-        System.out.println(id);
         Question question = questionMapper.selectByPrimaryKey(id);
-        System.out.println(question.toString());
+        // 如果问题不存在，则进行抛出异常进行处理，处理异常直接抛出到advice包下的CustomizeExceptionHandler类中的拦截器中
+        if(question==null){
+            throw new CustomizeException(CustomizeErrorCode.QUESTION_NOT_FOUND);
+        }
         QuestionDTO questionDTO = new QuestionDTO();
         BeanUtils.copyProperties(question,questionDTO);
 
@@ -141,7 +145,11 @@ public class QuestionService {
             updateQuestion.setTag(question.getTag());
             QuestionExample example=new QuestionExample();
             example.createCriteria().andIdEqualTo(question.getId());
-            questionMapper.updateByExampleSelective(updateQuestion,example);
+            int update = questionMapper.updateByExampleSelective(updateQuestion,example);
+            if (update != 1){
+                //没有进行更新，或者更新失败
+                throw  new CustomizeException(CustomizeErrorCode.QUESTION_NOT_FOUND);
+            }
         }
     }
 }
