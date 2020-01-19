@@ -115,7 +115,7 @@ public class QuestionService {
     public QuestionDTO getById(Integer id) {
         System.out.println(id);
         Question question = questionMapper.selectByPrimaryKey(id);
-
+        System.out.println(question.toString());
         QuestionDTO questionDTO = new QuestionDTO();
         BeanUtils.copyProperties(question,questionDTO);
 

@@ -39,7 +39,9 @@ public class AuthorizeController {
     @Autowired
     private UserService userService;
 
-    //调用GithubProvider封装好的方法
+    /**
+     * 调用GithubProvider封装好的方法
+     */
     @GetMapping("/callback")
     public String callback(@RequestParam(name="code")String code,
                            @RequestParam(name="state")String state,
