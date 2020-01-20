@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletRequest;
  * @Date: 2020/1/19
  */
 @Controller("/error")
-
+@RequestMapping("${server.error.path:${error.path:/error}}")
 public class CustomizeErrorController implements ErrorController {
     @Override
     public String getErrorPath() {

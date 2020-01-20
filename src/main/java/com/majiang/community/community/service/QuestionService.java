@@ -5,6 +5,7 @@ import com.majiang.community.community.dto.PaginationDTO;
 import com.majiang.community.community.dto.QuestionDTO;
 import com.majiang.community.community.exception.CustomizeErrorCode;
 import com.majiang.community.community.exception.CustomizeException;
+import com.majiang.community.community.mapper.QuestionExtMapper;
 import com.majiang.community.community.mapper.QuestionMapper;
 import com.majiang.community.community.mapper.UserMapper;
 import com.majiang.community.community.model.Question;
@@ -26,8 +27,11 @@ import java.util.List;
 //可以是用question和usermapper，相当于中间层，为service
 @Service
 public class QuestionService {
+
     @Autowired
     private QuestionMapper questionMapper;
+    @Autowired
+    private QuestionExtMapper questionExtMapper;
     @Autowired
     private UserMapper userMapper;
     public PaginationDTO list(Integer page, Integer size) {
@@ -151,5 +155,12 @@ public class QuestionService {
                 throw  new CustomizeException(CustomizeErrorCode.QUESTION_NOT_FOUND);
             }
         }
+    }
+
+    public void incView(Integer id) {
+        Question question=new Question();
+        question.setId(id);
+        question.setViewCount(1);
+        questionExtMapper.incView(question);
     }
 }
