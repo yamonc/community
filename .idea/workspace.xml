@@ -2,19 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a93ededc-5bc6-4da7-badd-b25c6794b1b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/controller/CommentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/dto/CommentDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/mapper/CommentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/model/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/model/CommentExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V5_Create_Comment_table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V6_Add_Content_to_comment_table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/CommentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/foobar.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3ca754c4-a7aa-4fdb-9e99-15331900f644.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3ca754c4-a7aa-4fdb-9e99-15331900f644.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3ca754c4-a7aa-4fdb-9e99-15331900f644/storage_v2/_src_/database/COMMUNITY.yT_dTQ/schema/PUBLIC.aaZQjQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3ca754c4-a7aa-4fdb-9e99-15331900f644/storage_v2/_src_/database/COMMUNITY.yT_dTQ/schema/PUBLIC.aaZQjQ.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/dto/ResultDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/enums/CommentTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/service/CommentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/advice/CustomizeExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/advice/CustomizeExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/controller/CommentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/exception/CustomizeErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/exception/CustomizeErrorCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/exception/CustomizeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/exception/CustomizeException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/exception/ICustomizeErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/exception/ICustomizeErrorCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/majiang/community/community/advice/CustomizeExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/majiang/community/community/advice/CustomizeExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/majiang/community/community/exception/CustomizeErrorCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/majiang/community/community/exception/CustomizeErrorCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/majiang/community/community/exception/CustomizeException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/majiang/community/community/exception/CustomizeException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/majiang/community/community/exception/ICustomizeErrorCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/majiang/community/community/exception/ICustomizeErrorCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/generatorConfig.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,11 +162,6 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="root:community" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@3114b646" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:community" type="7427dc5b:ServiceModel$ServiceGroupNode" />
                 <item name="com.intellij.database.console.session.MessageBusSession@107d3b39" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
@@ -195,7 +191,7 @@
       <workItem from="1578563788337" duration="1045000" />
       <workItem from="1579357159536" duration="1147000" />
       <workItem from="1579438936571" duration="7202000" />
-      <workItem from="1579487219651" duration="8108000" />
+      <workItem from="1579487219651" duration="14001000" />
     </task>
     <task id="LOCAL-00001" summary="2020年1月19日21:04:40master重新开始项目">
       <created>1579439141515</created>
@@ -225,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579490460768</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="2020年1月19日21:04:40master重新开始项目&#10;                                       2020年1月19日23:00:13master&#10;                                           1.对用户输入错误的页面进行处理，提示友好提示：也就是对错误页面的处理&#10;                                           2020年1月20日11:20:06master&#10;                                           1. 完善错误页面处理后出现的页面无法正常显示的问题&#10;                                           2. 实现阅读数功能&#10;                                           2020年1月20日17:01:05 master 测试">
+      <created>1579510896836</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1579510896836</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +268,8 @@
     <MESSAGE value="2020年1月19日21:04:40master重新开始项目&#10;2020年1月19日23:00:13master" />
     <MESSAGE value="2020年1月19日21:04:40master重新开始项目&#10;2020年1月19日23:00:13master&#10;    1.对用户输入错误的页面进行处理，提示友好提示：也就是对错误页面的处理" />
     <MESSAGE value="2020年1月19日21:04:40master重新开始项目&#10;                                       2020年1月19日23:00:13master&#10;                                           1.对用户输入错误的页面进行处理，提示友好提示：也就是对错误页面的处理&#10;                                           2020年1月20日11:20:06master&#10;                                           1. 完善错误页面处理后出现的页面无法正常显示的问题&#10;                                           2. 实现阅读数功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020年1月19日21:04:40master重新开始项目&#10;                                       2020年1月19日23:00:13master&#10;                                           1.对用户输入错误的页面进行处理，提示友好提示：也就是对错误页面的处理&#10;                                           2020年1月20日11:20:06master&#10;                                           1. 完善错误页面处理后出现的页面无法正常显示的问题&#10;                                           2. 实现阅读数功能" />
+    <MESSAGE value="2020年1月19日21:04:40master重新开始项目&#10;                                       2020年1月19日23:00:13master&#10;                                           1.对用户输入错误的页面进行处理，提示友好提示：也就是对错误页面的处理&#10;                                           2020年1月20日11:20:06master&#10;                                           1. 完善错误页面处理后出现的页面无法正常显示的问题&#10;                                           2. 实现阅读数功能&#10;                                           2020年1月20日17:01:05 master 测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020年1月19日21:04:40master重新开始项目&#10;                                       2020年1月19日23:00:13master&#10;                                           1.对用户输入错误的页面进行处理，提示友好提示：也就是对错误页面的处理&#10;                                           2020年1月20日11:20:06master&#10;                                           1. 完善错误页面处理后出现的页面无法正常显示的问题&#10;                                           2. 实现阅读数功能&#10;                                           2020年1月20日17:01:05 master 测试" />
   </component>
   <component name="WindowStateProjectService">
     <state x="312" y="109" key="#Inspections" timestamp="1579489404511">
@@ -276,50 +280,50 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="312" y="109" key="#SQL_Dialects/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579489726162" />
-    <state x="525" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1579444823434">
+    <state x="525" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1579514468918">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="525" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579444823434" />
-    <state x="253" y="0" key="CommitChangelistDialog2" timestamp="1579490480095">
+    <state x="525" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579514468918" />
+    <state x="253" y="0" key="CommitChangelistDialog2" timestamp="1579510893923">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="253" y="0" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579490480095" />
+    <state x="253" y="0" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579510893923" />
     <state x="464" y="75" key="ExecutionTargetDialog" timestamp="1578563829130">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="464" y="75" key="ExecutionTargetDialog/0.0.1366.768/-1440.0.1440.900@0.0.1366.768" timestamp="1578563829130" />
-    <state width="1397" height="251" key="GridCell.Tab.0.bottom" timestamp="1579502359607">
+    <state width="1397" height="251" key="GridCell.Tab.0.bottom" timestamp="1579516412506">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1397" height="251" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579502359607" />
-    <state width="1397" height="251" key="GridCell.Tab.0.center" timestamp="1579502359607">
+    <state width="1397" height="251" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579516412506" />
+    <state width="1397" height="251" key="GridCell.Tab.0.center" timestamp="1579516412506">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1397" height="251" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579502359607" />
-    <state width="1397" height="251" key="GridCell.Tab.0.left" timestamp="1579502359607">
+    <state width="1397" height="251" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579516412506" />
+    <state width="1397" height="251" key="GridCell.Tab.0.left" timestamp="1579516412506">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1397" height="251" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579502359607" />
-    <state width="1397" height="251" key="GridCell.Tab.0.right" timestamp="1579502359607">
+    <state width="1397" height="251" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579516412506" />
+    <state width="1397" height="251" key="GridCell.Tab.0.right" timestamp="1579516412506">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1397" height="251" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579502359607" />
-    <state width="1397" height="251" key="GridCell.Tab.1.bottom" timestamp="1579501429573">
+    <state width="1397" height="251" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579516412506" />
+    <state width="1397" height="251" key="GridCell.Tab.1.bottom" timestamp="1579516412507">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1397" height="251" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579501429573" />
-    <state width="1397" height="251" key="GridCell.Tab.1.center" timestamp="1579501429573">
+    <state width="1397" height="251" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579516412507" />
+    <state width="1397" height="251" key="GridCell.Tab.1.center" timestamp="1579516412506">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1397" height="251" key="GridCell.Tab.1.center/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579501429573" />
-    <state width="1397" height="251" key="GridCell.Tab.1.left" timestamp="1579501429572">
+    <state width="1397" height="251" key="GridCell.Tab.1.center/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579516412506" />
+    <state width="1397" height="251" key="GridCell.Tab.1.left" timestamp="1579516412506">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1397" height="251" key="GridCell.Tab.1.left/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579501429572" />
-    <state width="1397" height="251" key="GridCell.Tab.1.right" timestamp="1579501429573">
+    <state width="1397" height="251" key="GridCell.Tab.1.left/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579516412506" />
+    <state width="1397" height="251" key="GridCell.Tab.1.right" timestamp="1579516412506">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1397" height="251" key="GridCell.Tab.1.right/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579501429573" />
+    <state width="1397" height="251" key="GridCell.Tab.1.right/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579516412506" />
     <state width="1397" height="291" key="GridCell.Tab.2.bottom" timestamp="1579446157789">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -340,10 +344,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="92" key="SettingsEditor/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579444703106" />
-    <state x="312" y="183" key="Vcs.Push.Dialog.v2" timestamp="1579490492514">
+    <state x="312" y="183" key="Vcs.Push.Dialog.v2" timestamp="1579510900024">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="312" y="183" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579490492514" />
+    <state x="312" y="183" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579510900024" />
     <state x="436" y="95" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1579502287060">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -360,6 +364,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="256" y="186" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579442804233" />
+    <state x="462" y="68" key="refactoring.ChangeSignatureDialog" timestamp="1579514240229">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="462" y="68" key="refactoring.ChangeSignatureDialog/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579514240229" />
     <state x="383" y="190" width="672" height="678" key="search.everywhere.popup" timestamp="1579445051913">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

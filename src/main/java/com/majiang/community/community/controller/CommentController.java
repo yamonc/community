@@ -1,12 +1,17 @@
 package com.majiang.community.community.controller;
 
 import com.majiang.community.community.dto.CommentDTO;
+import com.majiang.community.community.dto.ResultDTO;
+import com.majiang.community.community.exception.CustomizeErrorCode;
 import com.majiang.community.community.mapper.CommentMapper;
 import com.majiang.community.community.model.Comment;
+import com.majiang.community.community.model.User;
+import com.majiang.community.community.service.CommentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpServletRequest;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -19,11 +24,18 @@ import java.util.Map;
 public class CommentController {
 
     @Autowired
-    private CommentMapper commentMapper;
+    private CommentService commentService;
 
     @RequestMapping(value = "/comment",method = RequestMethod.POST)
     @ResponseBody
-    public Object post(@RequestBody CommentDTO commentDTO){
+    public Object post(@RequestBody CommentDTO commentDTO,
+                       HttpServletRequest request){
+        //首先判断用户是否登录
+        User user= (User) request.getSession().getAttribute("user");
+        if (user==null){
+            return ResultDTO.errorOf  (CustomizeErrorCode.NO_LOGIN);
+        }
+
         Comment comment=new Comment();
         comment.setParentId(commentDTO.getParentId());
         comment.setContent(commentDTO.getContent());
@@ -32,10 +44,8 @@ public class CommentController {
         comment.setGmtCreate(System.currentTimeMillis());
         comment.setLikeCount(0L);
         comment.setCommentator(1);
-        commentMapper.insert(comment);
-        Map<Object, Object> objectObjectMap=new HashMap<>();
-        objectObjectMap.put("message","成功");
-        return objectObjectMap;
+        commentService.insert(comment);
+        return ResultDTO.okOf();
 
     }
 }
