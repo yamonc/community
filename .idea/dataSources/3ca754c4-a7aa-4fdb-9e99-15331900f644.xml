@@ -176,35 +176,35 @@
     <collation id="161" parent="2" name="UKRAINIAN_UKRAINE"/>
     <collation id="162" parent="2" name="VIETNAMESE"/>
     <collation id="163" parent="2" name="VIETNAMESE_VIETNAM"/>
-    <sequence id="164" parent="4" name="SYSTEM_SEQUENCE_6E4797CB_6651_4B15_9F38_FEF39B273DC6">
-      <ObjectId>5</ObjectId>
-      <NameSurrogate>1</NameSurrogate>
-      <SequenceIdentity>1</SequenceIdentity>
-      <CacheSize>32</CacheSize>
-      <AutoCreated>1</AutoCreated>
-    </sequence>
-    <sequence id="165" parent="4" name="SYSTEM_SEQUENCE_769F70B2_2762_43B6_8C13_6AC535B9C4C0">
+    <sequence id="164" parent="4" name="SYSTEM_SEQUENCE_62606D41_FE4E_4622_85F2_E4ACDB1DFCFD">
       <ObjectId>4</ObjectId>
       <NameSurrogate>1</NameSurrogate>
       <SequenceIdentity>1</SequenceIdentity>
       <CacheSize>32</CacheSize>
       <AutoCreated>1</AutoCreated>
     </sequence>
-    <sequence id="166" parent="4" name="SYSTEM_SEQUENCE_C2FED272_09E3_4503_8F84_5E725420C44A">
-      <ObjectId>9</ObjectId>
+    <sequence id="165" parent="4" name="SYSTEM_SEQUENCE_9DE9780B_2CF0_4BE7_BEBC_65E7918B6D61">
+      <ObjectId>3</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>32</CacheSize>
+      <AutoCreated>1</AutoCreated>
+    </sequence>
+    <sequence id="166" parent="4" name="SYSTEM_SEQUENCE_E651784B_A4AB_4D3E_A42E_3C819F376EE2">
+      <ObjectId>8</ObjectId>
       <NameSurrogate>1</NameSurrogate>
       <SequenceIdentity>1</SequenceIdentity>
       <CacheSize>32</CacheSize>
       <AutoCreated>1</AutoCreated>
     </sequence>
     <table id="167" parent="4" name="COMMENT">
-      <ObjectId>16</ObjectId>
+      <ObjectId>10</ObjectId>
     </table>
     <table id="168" parent="4" name="QUESTION">
-      <ObjectId>3</ObjectId>
+      <ObjectId>9</ObjectId>
     </table>
     <table id="169" parent="4" name="USER">
-      <ObjectId>12</ObjectId>
+      <ObjectId>5</ObjectId>
     </table>
     <column id="170" parent="167" name="ID">
       <Position>1</Position>
@@ -223,7 +223,7 @@
     </column>
     <column id="173" parent="167" name="COMMENTATOR">
       <Position>4</Position>
-      <DataType>INTEGER|0s</DataType>
+      <DataType>BIGINT|0s</DataType>
       <NotNull>1</NotNull>
     </column>
     <column id="174" parent="167" name="GMT_CREATE">
@@ -247,7 +247,7 @@
       <DataType>VARCHAR(1024)|0s</DataType>
     </column>
     <index id="178" parent="167" name="PRIMARY_KEY_1">
-      <ObjectId>17</ObjectId>
+      <ObjectId>15</ObjectId>
       <NameSurrogate>1</NameSurrogate>
       <SourceTextLength>61</SourceTextLength>
       <ColNames>ID</ColNames>
@@ -260,7 +260,7 @@
     </key>
     <column id="180" parent="168" name="ID">
       <Position>1</Position>
-      <DataType>INTEGER|0s</DataType>
+      <DataType>BIGINT|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
@@ -282,7 +282,7 @@
     </column>
     <column id="185" parent="168" name="CREATOR">
       <Position>6</Position>
-      <DataType>INTEGER|0s</DataType>
+      <DataType>BIGINT|0s</DataType>
     </column>
     <column id="186" parent="168" name="COMMENT_COUNT">
       <Position>7</Position>
@@ -304,7 +304,7 @@
       <DataType>VARCHAR(256)|0s</DataType>
     </column>
     <index id="190" parent="168" name="PRIMARY_KEY_C9">
-      <ObjectId>6</ObjectId>
+      <ObjectId>16</ObjectId>
       <NameSurrogate>1</NameSurrogate>
       <SourceTextLength>63</SourceTextLength>
       <ColNames>ID</ColNames>
@@ -317,7 +317,7 @@
     </key>
     <column id="192" parent="169" name="ID">
       <Position>1</Position>
-      <DataType>INTEGER|0s</DataType>
+      <DataType>BIGINT|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
@@ -349,10 +349,10 @@
       <Position>8</Position>
       <DataType>VARCHAR(100)|0s</DataType>
     </column>
-    <index id="200" parent="169" name="PRIMARY_KEY_2">
-      <ObjectId>13</ObjectId>
+    <index id="200" parent="169" name="PRIMARY_KEY_27">
+      <ObjectId>6</ObjectId>
       <NameSurrogate>1</NameSurrogate>
-      <SourceTextLength>58</SourceTextLength>
+      <SourceTextLength>59</SourceTextLength>
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
       <AutoCreated>1</AutoCreated>
