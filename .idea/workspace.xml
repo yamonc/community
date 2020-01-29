@@ -2,58 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a93ededc-5bc6-4da7-badd-b25c6794b1b9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3ca754c4-a7aa-4fdb-9e99-15331900f644.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3ca754c4-a7aa-4fdb-9e99-15331900f644.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3ca754c4-a7aa-4fdb-9e99-15331900f644/storage_v2/_src_/database/COMMUNITY.yT_dTQ/schema/PUBLIC.aaZQjQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3ca754c4-a7aa-4fdb-9e99-15331900f644/storage_v2/_src_/database/COMMUNITY.yT_dTQ/schema/PUBLIC.aaZQjQ.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/dto/CommentCreateDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/community.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/advice/CustomizeExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/advice/CustomizeExceptionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/controller/CommentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/controller/PublistController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/controller/PublistController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/controller/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/controller/QuestionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/dto/CommentDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/dto/CommentDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/dto/QuestionDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/dto/QuestionDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/enums/CommentTypeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/enums/CommentTypeEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/exception/CustomizeErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/exception/CustomizeErrorCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/mapper/CommentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/mapper/CommentMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/mapper/QuestionExtMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/mapper/QuestionExtMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/mapper/QuestionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/mapper/QuestionMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/model/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/model/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/model/CommentExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/model/CommentExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/model/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/model/Question.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/model/QuestionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/model/QuestionExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/model/UserExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/model/UserExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/service/CommentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/service/QuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/majiang/community/community/service/QuestionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/CommentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/CommentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/QuestionExtMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/QuestionExtMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/QuestionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/QuestionMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/majiang/community/community/advice/CustomizeExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/majiang/community/community/advice/CustomizeExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/community.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/community.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/question.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/question.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/majiang/community/community/controller/CommentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/majiang/community/community/controller/CommentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/majiang/community/community/controller/ProfileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/majiang/community/community/controller/ProfileController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/majiang/community/community/controller/PublistController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/majiang/community/community/controller/PublistController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/majiang/community/community/controller/QuestionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/majiang/community/community/controller/QuestionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/majiang/community/community/dto/CommentDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/majiang/community/community/dto/CommentDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/majiang/community/community/dto/QuestionDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/majiang/community/community/dto/QuestionDTO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/majiang/community/community/enums/CommentTypeEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/majiang/community/community/enums/CommentTypeEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/majiang/community/community/exception/CustomizeErrorCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/majiang/community/community/exception/CustomizeErrorCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/majiang/community/community/mapper/QuestionExtMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/majiang/community/community/mapper/QuestionExtMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/majiang/community/community/mapper/QuestionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/majiang/community/community/mapper/QuestionMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/majiang/community/community/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/majiang/community/community/mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/majiang/community/community/model/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/majiang/community/community/model/Comment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/majiang/community/community/model/CommentExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/majiang/community/community/model/CommentExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/majiang/community/community/model/CommentExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/majiang/community/community/model/CommentExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/majiang/community/community/model/Question.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/majiang/community/community/model/Question.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/majiang/community/community/model/QuestionExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/majiang/community/community/model/QuestionExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/majiang/community/community/model/QuestionExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/majiang/community/community/model/QuestionExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/majiang/community/community/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/majiang/community/community/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/majiang/community/community/model/UserExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/majiang/community/community/model/UserExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/majiang/community/community/model/UserExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/majiang/community/community/model/UserExample$GeneratedCriteria.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/majiang/community/community/service/CommentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/majiang/community/community/service/CommentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/majiang/community/community/service/QuestionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/majiang/community/community/service/QuestionService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/majiang/community/community/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/majiang/community/community/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/CommentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/CommentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/QuestionExtMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/QuestionExtMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/QuestionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/QuestionMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/foobar.mv.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/community.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/community.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/question.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/question.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,7 +190,8 @@
       <workItem from="1579438936571" duration="7202000" />
       <workItem from="1579487219651" duration="14145000" />
       <workItem from="1579579728924" duration="37000" />
-      <workItem from="1580042640965" duration="4607000" />
+      <workItem from="1580042640965" duration="4943000" />
+      <workItem from="1580288684139" duration="17126000" />
     </task>
     <task id="LOCAL-00001" summary="2020年1月19日21:04:40master重新开始项目">
       <created>1579439141515</created>
@@ -265,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579532582575</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="2020年1月19日21:04:40master重新开始项目&#10;                                       2020年1月19日23:00:13master&#10;                                           1.对用户输入错误的页面进行处理，提示友好提示：也就是对错误页面的处理&#10;                                           2020年1月20日11:20:06master&#10;                                           1. 完善错误页面处理后出现的页面无法正常显示的问题&#10;                                           2. 实现阅读数功能&#10;                                           2020年1月20日17:01:05 master 测试&#10;                                           2020年1月20日23:02:30master 补充中。。。&#10;                                           2020年1月26日22:04:50master 评论功能的完善中。。。">
+      <created>1580047539992</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1580047539992</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,7 +284,8 @@
     <MESSAGE value="2020年1月19日21:04:40master重新开始项目&#10;                                       2020年1月19日23:00:13master&#10;                                           1.对用户输入错误的页面进行处理，提示友好提示：也就是对错误页面的处理&#10;                                           2020年1月20日11:20:06master&#10;                                           1. 完善错误页面处理后出现的页面无法正常显示的问题&#10;                                           2. 实现阅读数功能" />
     <MESSAGE value="2020年1月19日21:04:40master重新开始项目&#10;                                       2020年1月19日23:00:13master&#10;                                           1.对用户输入错误的页面进行处理，提示友好提示：也就是对错误页面的处理&#10;                                           2020年1月20日11:20:06master&#10;                                           1. 完善错误页面处理后出现的页面无法正常显示的问题&#10;                                           2. 实现阅读数功能&#10;                                           2020年1月20日17:01:05 master 测试" />
     <MESSAGE value="2020年1月19日21:04:40master重新开始项目&#10;                                       2020年1月19日23:00:13master&#10;                                           1.对用户输入错误的页面进行处理，提示友好提示：也就是对错误页面的处理&#10;                                           2020年1月20日11:20:06master&#10;                                           1. 完善错误页面处理后出现的页面无法正常显示的问题&#10;                                           2. 实现阅读数功能&#10;                                           2020年1月20日17:01:05 master 测试&#10;                                           2020年1月20日23:02:30master 补充中。。。" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020年1月19日21:04:40master重新开始项目&#10;                                       2020年1月19日23:00:13master&#10;                                           1.对用户输入错误的页面进行处理，提示友好提示：也就是对错误页面的处理&#10;                                           2020年1月20日11:20:06master&#10;                                           1. 完善错误页面处理后出现的页面无法正常显示的问题&#10;                                           2. 实现阅读数功能&#10;                                           2020年1月20日17:01:05 master 测试&#10;                                           2020年1月20日23:02:30master 补充中。。。" />
+    <MESSAGE value="2020年1月19日21:04:40master重新开始项目&#10;                                       2020年1月19日23:00:13master&#10;                                           1.对用户输入错误的页面进行处理，提示友好提示：也就是对错误页面的处理&#10;                                           2020年1月20日11:20:06master&#10;                                           1. 完善错误页面处理后出现的页面无法正常显示的问题&#10;                                           2. 实现阅读数功能&#10;                                           2020年1月20日17:01:05 master 测试&#10;                                           2020年1月20日23:02:30master 补充中。。。&#10;                                           2020年1月26日22:04:50master 评论功能的完善中。。。" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020年1月19日21:04:40master重新开始项目&#10;                                       2020年1月19日23:00:13master&#10;                                           1.对用户输入错误的页面进行处理，提示友好提示：也就是对错误页面的处理&#10;                                           2020年1月20日11:20:06master&#10;                                           1. 完善错误页面处理后出现的页面无法正常显示的问题&#10;                                           2. 实现阅读数功能&#10;                                           2020年1月20日17:01:05 master 测试&#10;                                           2020年1月20日23:02:30master 补充中。。。&#10;                                           2020年1月26日22:04:50master 评论功能的完善中。。。" />
   </component>
   <component name="WindowStateProjectService">
     <state x="312" y="109" key="#Inspections" timestamp="1579489404511">
@@ -322,70 +300,82 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="525" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579514468918" />
-    <state x="253" y="0" key="CommitChangelistDialog2" timestamp="1579532578095">
+    <state x="338" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1580300512349">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="253" y="0" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579532578095" />
+    <state x="338" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580300512349" />
+    <state x="220" y="0" key="CommitChangelistDialog2" timestamp="1580047535937">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="220" y="0" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580047535937" />
     <state x="464" y="75" key="ExecutionTargetDialog" timestamp="1578563829130">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="464" y="75" key="ExecutionTargetDialog/0.0.1366.768/-1440.0.1440.900@0.0.1366.768" timestamp="1578563829130" />
-    <state width="1397" height="291" key="GridCell.Tab.0.bottom" timestamp="1580047377520">
+    <state width="1397" height="475" key="GridCell.Tab.0.bottom" timestamp="1580304942338">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1397" height="291" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580047377520" />
-    <state width="1397" height="291" key="GridCell.Tab.0.center" timestamp="1580047377520">
+    <state width="1397" height="475" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580304942338" />
+    <state width="1397" height="475" key="GridCell.Tab.0.center" timestamp="1580304942338">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1397" height="291" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580047377520" />
-    <state width="1397" height="291" key="GridCell.Tab.0.left" timestamp="1580047377520">
+    <state width="1397" height="475" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580304942338" />
+    <state width="1397" height="475" key="GridCell.Tab.0.left" timestamp="1580304942337">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1397" height="291" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580047377520" />
-    <state width="1397" height="291" key="GridCell.Tab.0.right" timestamp="1580047377520">
+    <state width="1397" height="475" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580304942337" />
+    <state width="1397" height="475" key="GridCell.Tab.0.right" timestamp="1580304942338">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1397" height="291" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580047377520" />
-    <state width="1397" height="291" key="GridCell.Tab.1.bottom" timestamp="1580047377521">
+    <state width="1397" height="475" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580304942338" />
+    <state width="1397" height="475" key="GridCell.Tab.1.bottom" timestamp="1580304942339">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1397" height="291" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580047377521" />
-    <state width="1397" height="291" key="GridCell.Tab.1.center" timestamp="1580047377521">
+    <state width="1397" height="475" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580304942339" />
+    <state width="1397" height="475" key="GridCell.Tab.1.center" timestamp="1580304942338">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1397" height="291" key="GridCell.Tab.1.center/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580047377521" />
-    <state width="1397" height="291" key="GridCell.Tab.1.left" timestamp="1580047377520">
+    <state width="1397" height="475" key="GridCell.Tab.1.center/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580304942338" />
+    <state width="1397" height="475" key="GridCell.Tab.1.left" timestamp="1580304942338">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1397" height="291" key="GridCell.Tab.1.left/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580047377520" />
-    <state width="1397" height="291" key="GridCell.Tab.1.right" timestamp="1580047377521">
+    <state width="1397" height="475" key="GridCell.Tab.1.left/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580304942338" />
+    <state width="1397" height="475" key="GridCell.Tab.1.right" timestamp="1580304942338">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1397" height="291" key="GridCell.Tab.1.right/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580047377521" />
-    <state width="1397" height="291" key="GridCell.Tab.2.bottom" timestamp="1580047377521">
+    <state width="1397" height="475" key="GridCell.Tab.1.right/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580304942338" />
+    <state width="1397" height="291" key="GridCell.Tab.2.bottom" timestamp="1580304464889">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1397" height="291" key="GridCell.Tab.2.bottom/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580047377521" />
-    <state width="1397" height="291" key="GridCell.Tab.2.center" timestamp="1580047377521">
+    <state width="1397" height="291" key="GridCell.Tab.2.bottom/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580304464889" />
+    <state width="1397" height="291" key="GridCell.Tab.2.center" timestamp="1580304464889">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1397" height="291" key="GridCell.Tab.2.center/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580047377521" />
-    <state width="1397" height="291" key="GridCell.Tab.2.left" timestamp="1580047377521">
+    <state width="1397" height="291" key="GridCell.Tab.2.center/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580304464889" />
+    <state width="1397" height="291" key="GridCell.Tab.2.left" timestamp="1580304464888">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1397" height="291" key="GridCell.Tab.2.left/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580047377521" />
-    <state width="1397" height="291" key="GridCell.Tab.2.right" timestamp="1580047377521">
+    <state width="1397" height="291" key="GridCell.Tab.2.left/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580304464888" />
+    <state width="1397" height="291" key="GridCell.Tab.2.right" timestamp="1580304464889">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1397" height="291" key="GridCell.Tab.2.right/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580047377521" />
+    <state width="1397" height="291" key="GridCell.Tab.2.right/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580304464889" />
     <state x="221" y="92" key="SettingsEditor" timestamp="1579444703106">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="92" key="SettingsEditor/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579444703106" />
-    <state x="312" y="183" key="Vcs.Push.Dialog.v2" timestamp="1579532591656">
+    <state width="512" height="448" key="SwitcherDM" timestamp="1580301806777">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="312" y="183" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1579532591656" />
+    <state width="512" height="448" key="SwitcherDM/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580301806777" />
+    <state x="312" y="183" key="Vcs.Push.Dialog.v2" timestamp="1580047543499">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="312" y="183" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580047543499" />
+    <state x="519" y="228" key="chooseDestDirectoryDialog" timestamp="1580300561931">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="519" y="228" key="chooseDestDirectoryDialog/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580300561931" />
     <state x="499" y="263" width="441" height="370" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1580044106791">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -410,10 +400,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="462" y="68" key="refactoring.ChangeSignatureDialog/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580044590234" />
-    <state x="383" y="190" width="672" height="678" key="search.everywhere.popup" timestamp="1580046325975">
+    <state x="383" y="190" width="672" height="678" key="search.everywhere.popup" timestamp="1580300218580">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="383" y="190" width="672" height="678" key="search.everywhere.popup/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580046325975" />
+    <state x="383" y="190" width="672" height="678" key="search.everywhere.popup/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580300218580" />
     <state x="551" y="273" key="zielu.gittoolbox.ui.GitPushTagsDialog" timestamp="1579439210503">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -423,11 +413,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/majiang/community/community/controller/QuestionController.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/majiang/community/community/controller/IndexController.java</url>
           <line>36</line>
           <option name="timeStamp" value="2" />
@@ -436,6 +421,26 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/majiang/community/community/service/QuestionService.java</url>
           <line>60</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/majiang/community/community/service/CommentService.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/majiang/community/community/service/CommentService.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/majiang/community/community/controller/QuestionController.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/majiang/community/community/service/CommentService.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

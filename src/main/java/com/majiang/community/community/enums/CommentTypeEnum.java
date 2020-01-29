@@ -21,6 +21,7 @@ public enum  CommentTypeEnum {
             if (value.getType().equals(type)){
                  return true;
             }
+
         }
         return false;
     }
