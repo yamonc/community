@@ -1,8 +1,8 @@
 package com.majiang.community.community.controller;
 
-import com.majiang.community.community.dto.CommentCreateDTO;
 import com.majiang.community.community.dto.CommentDTO;
 import com.majiang.community.community.dto.QuestionDTO;
+import com.majiang.community.community.enums.CommentTypeEnum;
 import com.majiang.community.community.service.CommentService;
 import com.majiang.community.community.service.QuestionService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -34,7 +34,7 @@ public class QuestionController {
         QuestionDTO questionDTO=questionService.getById(id);
         //返回所有品论
 
-        List<CommentDTO> commentCreateDTOList =commentService.listByQuestionId(id);
+        List<CommentDTO> commentCreateDTOList =commentService.listByTargetId(id, CommentTypeEnum.QUESTION);
         //增加阅读数
         questionService.incView(id);
 
