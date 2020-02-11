@@ -58,6 +58,7 @@ body{
 }
 .menu .icon:hover{
     color:#499ef3;
+    cursor: pointer;
 }
 
 .comments{
@@ -78,4 +79,27 @@ body{
 
 .question-title{
     margin-top: 25px;
+}
+.menu .comment-icon{
+    font-size: 15px;
+    cursor: pointer;
+}
+.menu .comment-icon :hover{
+    color:#499ef3;
+}
+.menu .comment-icon :active{
+    color:#499ef3;
+}
+.question-tag{
+    margin-right: 5px;
+}
+.question-related{
+    line-height: 20px;
+    font-size: 13px;
+    margin-left: 0;
+    list-style: none;
+    padding-left: 0;
+}
+.question-wechat{
+    width:100%;
 }

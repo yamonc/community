@@ -4,10 +4,7 @@ import com.majiang.community.community.dto.CommentDTO;
 import com.majiang.community.community.enums.CommentTypeEnum;
 import com.majiang.community.community.exception.CustomizeErrorCode;
 import com.majiang.community.community.exception.CustomizeException;
-import com.majiang.community.community.mapper.CommentMapper;
-import com.majiang.community.community.mapper.QuestionExtMapper;
-import com.majiang.community.community.mapper.QuestionMapper;
-import com.majiang.community.community.mapper.UserMapper;
+import com.majiang.community.community.mapper.*;
 import com.majiang.community.community.model.*;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -35,6 +32,8 @@ public class CommentService {
     private QuestionExtMapper questionExtMapper;
     @Autowired
     private UserMapper userMapper;
+    @Autowired
+    private CommentExtMapper commentExtMapper;
     @Transactional(rollbackFor = Exception.class)
     public void insert(Comment comment) {
         if(comment.getParentId()==null || comment.getParentId()==0){
@@ -50,6 +49,11 @@ public class CommentService {
                 throw new CustomizeException(CustomizeErrorCode.COMMENT_NOT_FOUND);
             }
             commentMapper.insert(comment);
+            //插入评论成功后,增加评论数
+            Comment parentComment = new Comment();
+            parentComment.setId(comment.getParentId());
+            parentComment.setCommentCount(1);
+            commentExtMapper.intCommentCount(parentComment);
         }else{
             //回复问题
             Question question = questionMapper.selectByPrimaryKey(comment.getParentId());

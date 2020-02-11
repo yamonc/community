@@ -1,8 +1,9 @@
 package com.majiang.community.community.mapper;
 
+import java.util.List;
+
 import com.majiang.community.community.model.Comment;
 import com.majiang.community.community.model.CommentExample;
-import java.util.List;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.session.RowBounds;
 

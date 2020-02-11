@@ -32,6 +32,8 @@ public class QuestionController {
                            Model model){
         //通过前台的获取到的id，获取数据库的数据
         QuestionDTO questionDTO=questionService.getById(id);
+        //得到相关阅读文章
+        List<QuestionDTO> relatedQuestions=questionService.selectRelated(questionDTO);
         //返回所有品论
 
         List<CommentDTO> commentCreateDTOList =commentService.listByTargetId(id, CommentTypeEnum.QUESTION);
@@ -42,6 +44,7 @@ public class QuestionController {
         //需要将这个结果传输到页面上去
         model.addAttribute("question",questionDTO);
         model.addAttribute("comments",commentCreateDTOList);
+        model.addAttribute("relatedQuestions",relatedQuestions);
         return "question";
     }
 }
