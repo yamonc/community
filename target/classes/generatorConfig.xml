@@ -37,6 +37,6 @@
         </javaClientGenerator>
 
 
-        <table tableName="comment" domainObjectName="Comment"/>
+        <table tableName="notification" domainObjectName="Notification"/>
     </context>
 </generatorConfiguration>
