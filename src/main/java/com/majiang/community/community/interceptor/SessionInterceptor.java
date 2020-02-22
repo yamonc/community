@@ -3,6 +3,7 @@ package com.majiang.community.community.interceptor;
 import com.majiang.community.community.mapper.UserMapper;
 import com.majiang.community.community.model.User;
 import com.majiang.community.community.model.UserExample;
+import com.majiang.community.community.service.NotificationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.servlet.HandlerInterceptor;
@@ -22,6 +23,8 @@ import java.util.List;
 public class SessionInterceptor implements HandlerInterceptor {
     @Autowired
     private UserMapper userMapper;
+    @Autowired
+    private NotificationService notificationService;
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         //注入model来发送给前台页面数据
@@ -36,6 +39,8 @@ public class SessionInterceptor implements HandlerInterceptor {
 
                     if (users.size()!= 0) {
                         request.getSession().setAttribute("user", users.get(0));
+                        Long unreadCount=notificationService.unreadCount(users.get(0).getId());
+                        request.getSession().setAttribute("unreadCount",unreadCount);
                     }
                     break;
                 }
