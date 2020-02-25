@@ -12,7 +12,9 @@
     <script src="../static/js/community.js" type="application/javascript"></script>
     <script src="../static/js/moment.js" type="application/javascript"></script>
     <script src="../static/js/editormd.min.js" type="application/javascript"></script>
-    <script src="../static/js/" type="application/javascript"></script>
+    <script src="../static/js/lib/marked.min.js" type="application/javascript"></script>
+    <script src="../static/js/lib/prettify.min.js" type="application/javascript"></script>
+
 
 </head>
 <body>
@@ -32,7 +34,18 @@
             </span>
                 <hr>
                 <!--内容-->
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" th:text="${question.description}"></div>
+
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="question-view" >
+                    <textarea style="display: none" th:text="${question.description}">###hello World</textarea>
+                </div>
+                <script type="application/javascript">
+                    $(function(){
+                        let testView = editormd.markdownToHTML("question-view",{
+
+                        })
+                    })
+
+                </script>
                 <!--标签-->
                 <hr class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
