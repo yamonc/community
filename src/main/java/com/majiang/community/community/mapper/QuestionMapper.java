@@ -1,5 +1,6 @@
 package com.majiang.community.community.mapper;
 
+import com.majiang.community.community.dto.QuestionQueryDTO;
 import com.majiang.community.community.model.Question;
 import com.majiang.community.community.model.QuestionExample;
 import java.util.List;
