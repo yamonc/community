@@ -18,3 +18,5 @@
 - mvn -v  查看maven工具版本
 - java -version 查看java版本
 - mvn clean compile package  编译打包
+## 其他
+查看其进程是否存在：ps -aux | grep java
