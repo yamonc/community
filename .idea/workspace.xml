@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="a93ededc-5bc6-4da7-badd-b25c6794b1b9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/community.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/community.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/navigation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/majiang/community/community/controller/AuthorizeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/majiang/community/community/controller/AuthorizeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/navigation.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,7 +225,7 @@
       <workItem from="1582465991311" duration="355000" />
       <workItem from="1582610556311" duration="15808000" />
       <workItem from="1582639851683" duration="1195000" />
-      <workItem from="1582681855603" duration="4508000" />
+      <workItem from="1582681855603" duration="6749000" />
     </task>
     <task id="LOCAL-00001" summary="2020年1月19日21:04:40master重新开始项目">
       <created>1579439141515</created>
@@ -363,7 +367,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582688362779</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="&#10;上线：master 1. 修改了登录的url&#10;修改">
+      <created>1582700090186</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1582700090186</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -419,7 +430,8 @@
     <MESSAGE value="2020年1月19日21:04:40master重新开始项目&#10;                                                                                                                                                                                                                                                                             2020年1月19日23:00:13master&#10;                                                                                                                                                                                                                                                                                 1.对用户输入错误的页面进行处理，提示友好提示：也就是对错误页面的处理&#10;                                                                                                                                                                                                                                                                                 2020年1月20日11:20:06master&#10;                                                                                                                                                                                                                                                                                 1. 完善错误页面处理后出现的页面无法正常显示的问题&#10;                                                                                                                                                                                                                                                                                 2. 实现阅读数功能&#10;                                                                                                                                                                                                                                                                                 2020年1月20日17:01:05 master 测试&#10;                                                                                                                                                                                                                                                                                 2020年1月20日23:02:30master 补充中。。。&#10;                                                                                                                                                                                                                                                                                 2020年1月26日22:04:50master 评论功能的完善中。。。&#10;                                                                                                                                                                                                                                                                                 2020年1月29日22:11:45master 评论列表的完成&#10;                                                                                                                                                                                                                                                                                2020年1月30日19:15:38master 二级评论的完成以及页面渲染&#10;                                                                                                                                                                                                                                                                                2020年2月11日19:19:58master 评论完成，实现标签的延伸，按照问题的标签进行关联其他问题。&#10;                                                                                                                                                                                                                                                                                2020年2月16日21:18:28master  daily commit&#10;                                                                                                                                                                                                                                                                                2020年2月20日22:06:01master 实现问题标签的添加&#10;                                                                                                                                                                                                                                                                                2020年2月21日19:17:41master 完成消息通知功能&#10;                                                                                                                                                                                                                                                                                2020年2月22日17:56:34master完善消息通知功能，待完善Markdown富文本编辑器使用&#10;                                                                                                                                                                                                                                                                                2020年2月22日22:00:15master 富文本编辑器处不使用&#10;                                                                                                                                                                                                                                                                                2020年2月25日15:56:51master 富文本有问题，不予以修复&#10;                                                                                                                                                                                                                                                                                2020年2月25日17:21:37master 修复多人登录问题&#10;                                                                                                                                                                                                                                                                                2020年2月25日18:26:12master 新增搜索和页脚" />
     <MESSAGE value="2020年1月19日21:04:40master重新开始项目&#10;                                                                                                                                                                                                                                                                             2020年1月19日23:00:13master&#10;                                                                                                                                                                                                                                                                                 1.对用户输入错误的页面进行处理，提示友好提示：也就是对错误页面的处理&#10;                                                                                                                                                                                                                                                                                 2020年1月20日11:20:06master&#10;                                                                                                                                                                                                                                                                                 1. 完善错误页面处理后出现的页面无法正常显示的问题&#10;                                                                                                                                                                                                                                                                                 2. 实现阅读数功能&#10;                                                                                                                                                                                                                                                                                 2020年1月20日17:01:05 master 测试&#10;                                                                                                                                                                                                                                                                                 2020年1月20日23:02:30master 补充中。。。&#10;                                                                                                                                                                                                                                                                                 2020年1月26日22:04:50master 评论功能的完善中。。。&#10;                                                                                                                                                                                                                                                                                 2020年1月29日22:11:45master 评论列表的完成&#10;                                                                                                                                                                                                                                                                                2020年1月30日19:15:38master 二级评论的完成以及页面渲染&#10;                                                                                                                                                                                                                                                                                2020年2月11日19:19:58master 评论完成，实现标签的延伸，按照问题的标签进行关联其他问题。&#10;                                                                                                                                                                                                                                                                                2020年2月16日21:18:28master  daily commit&#10;                                                                                                                                                                                                                                                                                2020年2月20日22:06:01master 实现问题标签的添加&#10;                                                                                                                                                                                                                                                                                2020年2月21日19:17:41master 完成消息通知功能&#10;                                                                                                                                                                                                                                                                                2020年2月22日17:56:34master完善消息通知功能，待完善Markdown富文本编辑器使用&#10;                                                                                                                                                                                                                                                                                2020年2月22日22:00:15master 富文本编辑器处不使用&#10;                                                                                                                                                                                                                                                                                2020年2月25日15:56:51master 富文本有问题，不予以修复&#10;                                                                                                                                                                                                                                                                                2020年2月25日17:21:37master 修复多人登录问题&#10;                                                                                                                                                                                                                                                                                2020年2月25日18:26:12master 新增搜索和页脚&#10;                                                                                                                                                                                                                                                                                2020年2月25日18:59:38master 日志的增加" />
     <MESSAGE value="&#10;上线：master 1. 修改了登录的url" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;上线：master 1. 修改了登录的url" />
+    <MESSAGE value="&#10;上线：master 1. 修改了登录的url&#10;修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;上线：master 1. 修改了登录的url&#10;修改" />
   </component>
   <component name="WindowStateProjectService">
     <state x="312" y="109" key="#Inspections" timestamp="1582251200864">
@@ -458,10 +470,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="450" y="196" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1582253570099" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1582688358757">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1582700086629">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1582688358757" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1582700086629" />
     <state x="464" y="75" key="ExecutionTargetDialog" timestamp="1578563829130">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -470,38 +482,38 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="500" y="205" key="FileChooserDialogImpl/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1581396799476" />
-    <state width="1397" height="291" key="GridCell.Tab.0.bottom" timestamp="1582630171491">
+    <state width="1397" height="249" key="GridCell.Tab.0.bottom" timestamp="1582702840222">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1397" height="291" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1582630171491" />
-    <state width="1397" height="291" key="GridCell.Tab.0.center" timestamp="1582630171491">
+    <state width="1397" height="249" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1582702840222" />
+    <state width="1397" height="249" key="GridCell.Tab.0.center" timestamp="1582702840222">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1397" height="291" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1582630171491" />
-    <state width="1397" height="291" key="GridCell.Tab.0.left" timestamp="1582630171491">
+    <state width="1397" height="249" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1582702840222" />
+    <state width="1397" height="249" key="GridCell.Tab.0.left" timestamp="1582702840221">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1397" height="291" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1582630171491" />
-    <state width="1397" height="291" key="GridCell.Tab.0.right" timestamp="1582630171491">
+    <state width="1397" height="249" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1582702840221" />
+    <state width="1397" height="249" key="GridCell.Tab.0.right" timestamp="1582702840222">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1397" height="291" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1582630171491" />
-    <state width="1397" height="291" key="GridCell.Tab.1.bottom" timestamp="1582630171491">
+    <state width="1397" height="249" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1582702840222" />
+    <state width="1397" height="249" key="GridCell.Tab.1.bottom" timestamp="1582702840223">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1397" height="291" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1582630171491" />
-    <state width="1397" height="291" key="GridCell.Tab.1.center" timestamp="1582630171491">
+    <state width="1397" height="249" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1582702840223" />
+    <state width="1397" height="249" key="GridCell.Tab.1.center" timestamp="1582702840223">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1397" height="291" key="GridCell.Tab.1.center/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1582630171491" />
-    <state width="1397" height="291" key="GridCell.Tab.1.left" timestamp="1582630171491">
+    <state width="1397" height="249" key="GridCell.Tab.1.center/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1582702840223" />
+    <state width="1397" height="249" key="GridCell.Tab.1.left" timestamp="1582702840223">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1397" height="291" key="GridCell.Tab.1.left/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1582630171491" />
-    <state width="1397" height="291" key="GridCell.Tab.1.right" timestamp="1582630171491">
+    <state width="1397" height="249" key="GridCell.Tab.1.left/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1582702840223" />
+    <state width="1397" height="249" key="GridCell.Tab.1.right" timestamp="1582702840223">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1397" height="291" key="GridCell.Tab.1.right/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1582630171491" />
+    <state width="1397" height="249" key="GridCell.Tab.1.right/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1582702840223" />
     <state width="1397" height="291" key="GridCell.Tab.2.bottom" timestamp="1582630171491">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -527,10 +539,10 @@
     </state>
     <state width="512" height="519" key="SwitcherDM/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1582364586497" />
     <state width="498" height="456" key="SwitcherDM/0.0.1440.900/1440.0.1366.768@1440.0.1366.768" timestamp="1581321062423" />
-    <state x="312" y="183" key="Vcs.Push.Dialog.v2" timestamp="1582688371190">
+    <state x="312" y="183" key="Vcs.Push.Dialog.v2" timestamp="1582700092219">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="312" y="183" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1582688371190" />
+    <state x="312" y="183" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1582700092219" />
     <state x="519" y="228" key="chooseDestDirectoryDialog" timestamp="1580300561931">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -539,10 +551,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="499" y="263" width="441" height="370" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1580044106791" />
-    <state x="436" y="95" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1582620064151">
+    <state x="436" y="95" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1582700761637">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="436" y="95" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1582620064151" />
+    <state x="436" y="95" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1440.900/1440.0.1366.768@0.0.1440.900" timestamp="1582700761637" />
     <state x="92" y="92" width="1256" height="716" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1582616878840">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
