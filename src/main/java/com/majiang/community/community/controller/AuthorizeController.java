@@ -6,6 +6,8 @@ import com.majiang.community.community.mapper.UserMapper;
 import com.majiang.community.community.model.User;
 import com.majiang.community.community.provider.GithubProvider;
 import com.majiang.community.community.service.UserService;
+import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
@@ -22,6 +24,7 @@ import java.util.UUID;
  * 用于认证
  */
 @Controller
+@Slf4j
 public class AuthorizeController {
 
     @Autowired
@@ -43,9 +46,9 @@ public class AuthorizeController {
      * 调用GithubProvider封装好的方法
      */
     @GetMapping("/callback")
-    public String callback(@RequestParam(name="code")String code,
-                           @RequestParam(name="state")String state,
-                           HttpServletRequest request, HttpServletResponse response) throws IOException {
+    public String callback(@RequestParam(name = "code") String code,
+                           @RequestParam(name = "state") String state,
+                           HttpServletRequest request, HttpServletResponse response, Logger log) throws IOException {
         AccessTokenDTO accessTokenDTO = new AccessTokenDTO();
         accessTokenDTO.setClient_id(clientId);
         accessTokenDTO.setClient_secret(clientSecret);
@@ -70,7 +73,8 @@ public class AuthorizeController {
             request.getSession().setAttribute("githubUser",githubUser);
             return "redirect:/";
         }else{
-            //登录失败重新登录
+            //登录失败重新登录需要打日志
+            log.error("callback get github error,{}",githubUser);
             return "redirect:/";
         }
     }
